@@ -1,0 +1,39 @@
+:root {
+    --color-nightcode: #888BAB;
+    --color-nijuugo: #884499;
+}
+
+html, body {
+    height: 100%;
+    background: linear-gradient(var(--color-nightcode), var(--color-nijuugo));
+}
+
+#title {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: var(--color-nijuugo);
+    text-shadow: 0 0 10px white;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: inline-block;
+    height: 650px;
+    width: 650px;
+    background-color: white;
+    border: 5px solid var(--color-nijuugo);
+    border-radius: 1%;
+    box-shadow: 0 0 5px black;
+    font-size: 0;
+}
+
+.square {
+    display: inline-block;
+    border: thin solid var(--color-nightcode);
+    box-sizing: border-box;
+}
