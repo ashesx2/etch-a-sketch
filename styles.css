@@ -1,3 +1,4 @@
+/* Color Variables */
 :root {
     --color-nightcode: #888BAB;
     --color-nijuugo: #884499;
@@ -9,10 +10,10 @@ html {
 }
 
 #title {
-    text-align: center;
     font-size: 40px;
     font-family: 'Nunito Sans', sans-serif;
     color: var(--color-nijuugo);
+    text-align: center;
     text-shadow: 0 0 10px white;
 }
 
@@ -21,17 +22,23 @@ html {
     justify-content: center;
     margin: 0px 0px 30px 0px;
 }
+
 button {
     font-family: 'Nunito Sans', sans-serif;
     color: var(--color-nijuugo);
     padding: 5px 10px 5px 10px;
-    text-align: center;
     margin: 0 5px 0 5px;
-    border-radius: 10px;
+    text-align: center;
     border: none;
+    border-radius: 10px;
 }
+
 button:hover {
     box-shadow: 0 0 20px var(--color-nijuugo);
+}
+
+#color {
+    margin: 0px 0px 0px 5px;
 }
 
 .wrapper {
